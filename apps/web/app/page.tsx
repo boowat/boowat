@@ -33,6 +33,7 @@ export default function Home() {
         />
         <ol>
           <li>SANDI WAS HERE</li>
+          <li>NUFI ALSO HERE</li>
           <li>Save and see your changes instantly.</li>
         </ol>
 
