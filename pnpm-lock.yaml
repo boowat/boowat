@@ -21,7 +21,7 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
 
-  apps/dashboard:
+  apps/website:
     dependencies:
       '@repo/tailwind-config':
         specifier: workspace:*
@@ -2165,6 +2165,11 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
+    hasBin: true
+
+  semver@7.8.5:
+    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
+    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.8.5:
@@ -4547,6 +4552,9 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.8.5: {}
+
+  semver@7.8.5:
+    optional: true
 
   set-function-length@1.2.2:
     dependencies:
